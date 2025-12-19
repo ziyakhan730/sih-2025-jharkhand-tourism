@@ -22,6 +22,7 @@ export default defineConfig({
   plugins: [
   // Add the React plugin to enable support for React and JSX/TSX
   react(), tailwindcss()],
+  base: '/sih-2025-jharkhand-tourism/',
   server: {
     host: true // Exposes the server on the local network
   },
