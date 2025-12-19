@@ -15,9 +15,9 @@
  * <Avatar placeholder="JD" />
  */
 
-type PresenceStatus = 'online' | 'offline';
-type AvatarSize = 'xs' | 'sm' | 'md' | 'lg' | 'xl';
-type AvatarShape = 'circle' | 'rounded' | 'square';
+export type PresenceStatus = 'online' | 'offline';
+export type AvatarSize = 'xs' | 'sm' | 'md' | 'lg' | 'xl';
+export type AvatarShape = 'circle' | 'rounded' | 'square';
 
 export interface AvatarProps {
 	/** Image source URL */
